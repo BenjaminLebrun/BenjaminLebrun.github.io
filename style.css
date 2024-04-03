@@ -75,6 +75,7 @@ header .navbar li a:hover {
     align-items: center;
     background-image: url(./image/foret.jpg);
     background-size: covers;
+    padding: 100px 100px 50px 100px;
 }
 
 .banniere .contenu {
