@@ -8,92 +8,96 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <title>Portfolio</title>
+  <title>PortFolio</title>
 </head>
 
 <body>
   <header>
-    <a href="#" class="logo"><span>B</span>enjamin<span>L</span>ebrun</a>
+    <a href="#" class="logo"><span>B</span>L</a>
     <div class="menutoggle" onclick="toggleMenu();"></div>
     <ul class="navbar">
+      <div class="menutoggle" style="filter: invert(0%); left: 17px;" onclick="toggleMenu();"></div>
       <li><a href="#banniere" onclick="toggleMenu();">Accueil</a></li>
       <li><a href="#apropos" onclick="toggleMenu();">A propos</a></li>
       <li><a href="#menu" onclick="toggleMenu();">Projets</a></li>
-      <li><a href="#expert" onclick="toggleMenu();">Compétences</a></li>
+      <li><a href="#expert" onclick="toggleMenu();">Langages informatiques</a></li>
       <li><a href="#temoignage" onclick="toggleMenu();">Formations</a></li>
-      <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
-      <a href="#" class="btn-reserve">Recruter</a>
+      <!-- <li><a href="#contact" onclick="toggleMenu();">Contact</a></li> -->
+      <a href="#contact" onclick="toggleMenu();" class="btn-reserve">Me contacter</a>
     </ul>
   </header>
   <section class="banniere" id="banniere">
     <div class="contenu">
-      <h2>PortFolio</h2>
-      <p>Bienvenu sur mon Portfolio. Ici vous pourrez voir l'avancement de mes différents projets.
-      </p>
-      <a href="#" class="btn1">Projets</a>
-      <a href="#" class="btn2">Recruter!</a>
+      <h2>Benjamin Lebrun<br><i>Développement d'application</i></h2>
+      <p><br>PortFolio - Alternance OpenClassRooms - Rythme 12/18/24mois <br>Disponible dès le 15 Avril 2024</p>
+      <a href="#" class="btn1">Notre Menu</a>
+      <a href="#" class="btn2">Reservation</a>
     </div>
   </section>
   <section class="apropos" id="apropos">
     <div class="row">
       <div class="col50">
-        <h2 class="titre-texte"><span>A</span> Propos De Moi</h2>
-        <p>Adepte de l'univers du développement informatique et des "news tech". Je souhaite développer mes compétences
-          dans ce domaine au sein d'une formation en alternance en JavaScript, Java ou Python... <br> D'abord orienté
-          vers des études de santé je me suis ensuite pleinement dirigé dans le domaine du developpement Web</p>
+        <h2 class="titre-texte"><span>B</span>enjamin <span style="color: black;">L</span>ebrun</h2>
+        <p>Ayant un profond intérêt pour l’univers numérique et technologique, j’ai choisi de me spécialiser dans le
+          développement d’application. <br><br>Ma curiosité et mon esprit d’analyse me permettent de comprendre
+          rapidement
+          les
+          problématiques et de trouver des solutions adaptées. <br><br>J’ai déjà eu l’occasion de me former en
+          développement
+          informatique, en programmation et en gestion de projets.</p><br><br>
+        <p>Alternance Concepteur Développeur d'Application 12/18/24mois OpenClassRooms : Java, JS React, Python,
+          Android, IOS, .NET, SalesForce ou PHP Symphony</p><br>
       </div>
       <div class="col50">
-        <div class="img"><img id="img1" src="https://dailygeekshow.com/wp-content/uploads/2022/08/une-arbres-geants.jpg"
-            alt="image"></div>
+        <div class="img"><img id="img1" src="/image/setupbureau.png" alt="image"></div>
       </div>
     </div>
   </section>
   <section class="menu" id="menu">
     <div class="titre">
       <h2 class="titre-texte"><span>P</span>rojets</h2>
-      <p>Voici une partie des projets que j'ai pu réaliser et explorer</p>
+      <p>Voici des conceptions d'applications que j'ai eu l'occasion de coder. </p>
     </div>
     <div class="contenu">
       <div class="box">
         <div class="imbox">
-          <img src="/image/Capture d'écran 2023-08-28 120403.png" alt="">
+          <img src="/image/TodoList01.png" alt="">
         </div>
         <div class="text">
-          <h3>PingPong Tableau de score -<br> 4joueurs</h3>
+          <h3>Todo List</h3>
         </div>
       </div>
       <div class="box">
         <div class="imbox">
-          <img
-            src="https://us.123rf.com/450wm/mazzzur/mazzzur1608/mazzzur160800015/63336714-sepilok-g%C3%A9ant-le-plus-vieil-arbre-de-sabah-%C3%A0-born%C3%A9o-en-malaisie.jpg"
-            alt="">
+          <img src="/image/Keeper2.png" alt="">
         </div>
         <div class="text">
-          <h3>Promises color change</h3>
+          <h3>PingPong Keeper<br> 2 players</h3>
         </div>
       </div>
       <div class="box">
         <div class="imbox">
-          <img src="https://www.map24.com/wp-content/uploads/2021/10/759c5fb0002268dcff4f959067c3fe82.jpg" alt="">
+          <img src="/image/Keeper3.png" alt="">
         </div>
         <div class="text">
-          <h3>Lister+Classer</h3>
+          <h3>PingPong Keeper<br> 3 players</h3>
         </div>
       </div>
       <div class="box">
         <div class="imbox">
-          <img src="https://www.map24.com/wp-content/uploads/2021/10/Wisteria-Trees-in-Hyogo-Japan-pics-1.webp" alt="">
+          <img src="/image/Keeper4.png" alt="">
         </div>
         <div class="text">
-          <h3>Guess Game</h3>
+          <h3>PingPong Keeper<br> 4 players</h3>
         </div>
       </div>
+
       <div class="box">
         <div class="imbox">
           <img src="https://www.map24.com/wp-content/uploads/2021/10/QuinaultLakeCedar_7274c.jpg" alt="">
         </div>
         <div class="text">
-          <h3>TodoList</h3>
+          <h3>Hypérion en Californie</h3>
         </div>
       </div>
       <div class="box">
@@ -101,7 +105,7 @@
           <img src="https://www.map24.com/wp-content/uploads/2021/10/arc-en-ciel.jpg" alt="">
         </div>
         <div class="text">
-          <h3>Site abonnement</h3>
+          <h3>Hypérion en Californie</h3>
         </div>
       </div>
       <div class="box">
@@ -109,7 +113,15 @@
           <img src="https://www.map24.com/wp-content/uploads/2021/10/14398121989_247a691f6c_c.jpg" alt="">
         </div>
         <div class="text">
-          <h3>tweet twitter</h3>
+          <h3>Hypérion en Californie</h3>
+        </div>
+      </div>
+      <div class="box">
+        <div class="imbox">
+          <img src="https://www.map24.com/wp-content/uploads/2021/10/f3377c3aa423b2790777ce4399a125af.png" alt="">
+        </div>
+        <div class="text">
+          <h3>Hypérion en Californie</h3>
         </div>
       </div>
     </div>
@@ -119,65 +131,100 @@
   </section>
   <section class="expert" id="expert">
     <div class="titre">
-      <h2 class="titre-texte"><span>C</span>ompétences</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quia dolores eos.
-        temporibus dignissimos nobis illo assumenda.</p>
+      <h2 class="titre-texte">Langages <span>E</span>tudiés</h2>
+
     </div>
+    <div class="contenu">
+      <div class="box">
+        <div class="imbox">
+          <img src="/image/htmlicon.png" alt="">
+        </div>
+        <div class="text">
+          <h3>HTML</h3>
+        </div>
+      </div>
+      <div class="box">
+        <div class="imbox">
+          <img src="/image/cssicon.png" alt="">
+        </div>
+        <div class="text">
+          <h3>CSS</h3>
+        </div>
+      </div>
+      <div class="box">
+        <div class="imbox">
+          <img src="/image/jsicon.png" alt="">
+        </div>
+        <div class="text">
+          <h3>JavaScript</h3>
+        </div>
+      </div>
+      <div class="box">
+        <div class="imbox">
+          <img src="/image/pythonicon.png" alt="">
+        </div>
+        <div class="text">
+          <h3>Python</h3>
+        </div>
+      </div>
+      <div class="box">
+        <div class="imbox">
+          <img src="/image/phpicon.png" alt="">
+        </div>
+        <div class="text">
+          <h3>PHP</h3>
+        </div>
+      </div>
   </section>
   <section class="temoignage" id="temoignage">
     <div class="titre blanc">
-      <h2 class="titre-texte"><span>P</span>arcours</h2>
+      <h2 class="titre-texte">Formations <span>A</span>utodidact</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quia dolores eos.
         temporibus dignissimos nobis illo assumenda.</p>
     </div>
     <div class="contenu">
       <div class="box">
         <div class="imbox">
-          <img src="http://crystaljs.studiojaw.com/user/pages/05.about/albert-dera-uIcbTOhMHOU-unsplash-320x320.jpg"
-            alt="">
+          <img src="/image/coltsteele.jpg" alt="">
         </div>
         <div class="text">
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque qui quas, nisi accusamus amet commodi!
-            Facilis repellendus totam blanditiis ex aspernatur, adipisci unde sed sit molestiae, cumque ut harum
-            corrupti!</p>
-          <h3>Steeve Colt</h3>
+          <p>The web developer bootcamp 2023 <br><br> Cours HTML & CSS, Javascript, React, Node..</p>
+          <h3>Colt Steele</h3>
+        </div>
+        <div class="imbox2">
+          <span><img src="/image/yticon.png" alt=""></span>
         </div>
       </div>
       <div class="box">
         <div class="imbox">
-          <img src="http://crystaljs.studiojaw.com/user/pages/05.about/tamara-bellis-171229-unsplash-320x320.jpg"
-            alt="">
+          <img src="/image/fromscratch.jpg" alt="">
         </div>
         <div class="text">
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque qui quas, nisi accusamus amet commodi!
-            Facilis repellendus totam blanditiis ex aspernatur, adipisci unde sed sit molestiae, cumque ut harum
-            corrupti</p>
-          <h3>FromScratch</h3>
+          <p>Mastering Front-End by <br> From Scratch <br><br> Cours HTML & CSS, Javascript, React, GitHub...</p>
+          <h3>Julien Azambourg</h3>
         </div>
       </div>
       <div class="box">
         <div class="imbox">
-          <img src="http://crystaljs.studiojaw.com/user/pages/05.about/crew-szCvt1gP2d4-unsplash-320x320.jpg" alt="">
+          <img src="/image/Logo_OpenClassrooms.png" alt="">
         </div>
         <div class="text">
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque qui quas, nisi accusamus amet commodi!
-            Facilis repellendus totam blanditiis ex aspernatur, adipisci unde sed sit molestiae, cumque ut harum
-            corrupti</p>
-          <h3>OpenClassroom</h3>
+          <p>accès cours gratuit en ligne</p>
+          <h3>OpenClassRooms</h3>
         </div>
       </div>
   </section>
   <section class="contact" id="contact">
     <div class="titre noir">
       <h2 class="titre-texte"><span>C</span>ontact</h2>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+      <p class="contactText">Formulaire non fonctionnel pour le moment</p>
       <div class="contactForm">
         <h3>Envoyer un message</h3>
         <div class="inputBoite">
-          <input type="text" placeholder="Nom">
+          <input type="text" id="firstname" name="firstname" placeholder="Nom" required />
         </div>
         <div class="inputBoite">
-          <input type="text" placeholder="email">
+          <input type="email" id="email" name="email" placeholder="email" required />
         </div>
         <div class="inputBoite">
           <textarea placeholder="message"></textarea>
@@ -190,7 +237,7 @@
     </div>
   </section>
   <div class="copyright">
-    <p>Copyright © 2023 All rights reserved | This template is made with by <a href="#">BenjaminLebrun</a></p>
+    <p>Copyright © 2024 Benjamin LEBRUN | Tous droits réservés. <a href="#">BL</a></p>
   </div>
   <script type="text/javascript">
     window.addEventListener('scroll', function () {
@@ -201,7 +248,7 @@
     function toggleMenu() {
       const menuToggle = document.querySelector('.menutoggle');
       const navbar = document.querySelector('.navbar');
-      menuToggle.classList.toggle('active');
+      // menuToggle.classList.toggle('active');
       navbar.classList.toggle('active');
     }
   </script>
