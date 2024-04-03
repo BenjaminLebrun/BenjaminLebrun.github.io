@@ -195,6 +195,11 @@ section {
     height: 300px;
 }
 
+.menu .contenu .box:hover {
+    width: 420px;
+    transition: 0.5s;
+}
+
 .menu .contenu .box .imbox img {
     position: relative;
     top: 0;
@@ -226,14 +231,14 @@ section {
 }
 
 .expert .contenu .box {
-    width: 250px;
+    width: 80px;
     margin: 15px;
 }
 
 .expert .contenu .box img {
     position: relative;
-    width: 100%;
-    height: 300px;
+    width: 80px;
+    height: 80px;
     top: 0;
     left: 0;
     object-fit: cover;
@@ -281,7 +286,25 @@ section {
     overflow: hidden;
 }
 
+.temoignage .contenu .box .imbox2 {
+    width: 30px;
+    height: 30px;
+    position: static;
+    overflow: hidden;
+}
+
 .temoignage .contenu .box .imbox img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.temoignage .contenu .box .imbox2 img {
     position: relative;
     width: 100%;
     height: 100%;
@@ -320,6 +343,13 @@ section {
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.8);
     width: 100%;
     background-position: unset;
+}
+
+.contactText {
+    -webkit-text-stroke: 0.5px black;
+    color: white;
+    text-shadow: #fff 1px 1px 10px;
+    background-color: rgb(255, 255, 255, 0.8);
 }
 
 .contactForm {
@@ -544,3 +574,4 @@ header.sticky li a:hover {
         justify-content: center;
     }
 }
+
